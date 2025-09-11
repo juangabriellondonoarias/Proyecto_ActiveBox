@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.principal{
+    background: url(../assets/Layer_34.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header{
+    background-color: rgba(50, 52, 85, 0.95);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 10%;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+}
+
+.main-section{
+    background-color: rgba(50, 52, 85, 0.95);
+    color: white;
+    height: 100vh;
+}
