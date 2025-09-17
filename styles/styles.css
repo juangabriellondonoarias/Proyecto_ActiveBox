@@ -10,12 +10,33 @@
     background-repeat: no-repeat;
 }
 
-header{
-    background-color: rgba(50, 52, 85, 0.95);
+.principal h2{
+    font-size: 60px;
+    margin-top: 6%;
+    margin-bottom: 20px;
+}
+
+.principal p{
+    font-size: 25px;
+}
+
+.p{
+     margin-bottom: 3%;
+}
+
+.principal button{
+    background-color: #E84546;
+    border: none;
     color: white;
+    padding: 15px 40px;
+    margin-bottom: 10%;
+    cursor: pointer;
+}
+.Linea{
     display: flex;
+    background-color: rgba(50, 52, 85, 0.95);
     justify-content: space-between;
-    padding: 2% 10%;
+    padding: 2% 18%;
 }
 
 header a{
@@ -27,5 +48,82 @@ header a{
 .main-section{
     background-color: rgba(50, 52, 85, 0.95);
     color: white;
-    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.feautre{
+    text-align: center;
+}
+
+.feautre h3{
+    font-size: 18px;
+    margin: 15px 0;
+}
+
+.feautre p{
+    margin-bottom: 30px;
+}
+
+.second-section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: auto;
+    grid-template-areas: "lapiz pantalla bombillo"
+                         "clean maletin dowloand";
+    padding: 5% 20%;
+    gap: 10%;
+}
+
+.lapiz{
+    grid-area: lapiz; 
+}
+
+.pantalla{
+    grid-area: pantalla;
+}
+
+.bombillo{
+    grid-area: bombillo;
+}
+
+.clean{
+    grid-area: clean;
+}
+
+.maletin{
+    grid-area: maletin;
+}
+
+.dowloand{
+    grid-area: dowloand;
+}
+
+.section-team{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 2% 20%;
+    gap: 30px;
+}
+
+.section-team p{
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.section-team h4{
+    font-size: 25px;
+    margin: 20px 0 10px 0;
+}
+
+.section-team h5{
+    color: red;
+    margin-bottom: 15px;
+}
+
+.section-team img{
+    border: 1px solid black;
+    padding: 10px 15px;
 }
