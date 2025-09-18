@@ -67,6 +67,10 @@ header a{
     margin-bottom: 30px;
 }
 
+body{
+    
+}
+
 .second-section{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -101,10 +105,116 @@ header a{
     grid-area: dowloand;
 }
 
+.section-img{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: "uno dos tres cuatro"
+                         "sinco seis siete ocho";
+    gap: 2px;
+    position: relative;
+}
+
+.section-img > div{
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+    opacity: 1;
+}
+
+.texto-encima{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.809);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.4s ease;
+    text-align: center;
+    cursor: pointer;
+}
+
+.uno{
+    grid-area: uno;
+    background: url(../assets/imagen1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30vh;
+}
+
+.section-img > div:hover .texto-encima{
+    opacity: 1;
+}
+
+.dos{
+    grid-area: dos;
+    background: url(../assets/imagen2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30vh;
+}
+
+.tres{
+    grid-area: tres;
+    background: url(../assets/imagen3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30vh;
+}
+
+.cuatro{
+    grid-area: cuatro;
+    background: url(../assets/imagen4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30vh;
+}
+
+.sinco{
+    grid-area: sinco;
+    background: url(../assets/imagen5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30vh;
+}
+
+.seis{
+    grid-area: seis;
+    background: url(../assets/imagen6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30vh;
+}
+
+.siete{
+    grid-area: siete;
+    background: url(../assets/imagen7.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30vh;
+}
+
+.ocho{
+    grid-area: ocho;
+    background: url(../assets/imagen8.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30vh;
+}
+
+/* section-team */
+
 .section-team{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    padding: 2% 20%;
+    padding: 5% 20%;
     gap: 30px;
 }
 
@@ -123,7 +233,104 @@ header a{
     margin-bottom: 15px;
 }
 
-.section-team img{
-    border: 1px solid black;
-    padding: 10px 15px;
+.logos{
+    border: 1px solid rgb(207, 207, 207);
+    padding: 10px 20px;
+    padding: 10px 10px;
+    height: 40px;
+}
+
+/* section-bloques */
+
+.section-bloques{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.inter{
+    background-color: #523549;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    width: 100%;
+    padding-left: 5%;
+}
+
+.p2{
+    font-size: 45px;
+    margin-bottom: 35px;
+}
+
+.divs{
+    display: flex;
+    gap: 5px;
+    margin-left: 30%;
+}
+
+.inter p{
+    margin-bottom: 50px;
+}
+
+.fot{
+    width: 12px;
+    height: 12px;
+    border:0;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    animation: bounce 1.5s infinite ease-in-out;
+}
+
+.uno1{
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.tres3{
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.cuatro4{
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.cinco5{
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.section-are{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5% 0;
+}
+
+.section-are h6{
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.section-are button{
+    background-color: #E84546;
+    border: 0;
+    color: white;
+    padding: 15px 60px;
+    margin-top: 25px;
+}
+
+.section-location{
+    background-color:#3A3E63;
+    color: white;
+}
+
+/* section-location */
+
+.section-location{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 5% 20%;
+}
+
+.cajas{
+    text-align: center;
 }
