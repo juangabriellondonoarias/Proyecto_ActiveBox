@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Raleway', sans-serif;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+}
+
 .principal{
     background: url(../assets/Layer_34.webp);
     background-size: cover;
@@ -43,6 +51,8 @@ header a{
     color: white;
     text-decoration: none;
     margin-left: 25px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
 }
 
 .main-section{
@@ -76,7 +86,7 @@ body{
     grid-template-columns: repeat(3, 1fr);
     grid-template-areas: auto;
     grid-template-areas: "lapiz pantalla bombillo"
-                         "clean maletin dowloand";
+                        "clean maletin dowloand";
     padding: 5% 12%;
     gap: 4%;
 }
@@ -258,7 +268,9 @@ body{
 }
 
 .p2{
-    font-size: 45px;
+    font-family: 'Cardo', serif;
+    font-style: italic;
+    font-size: 35px;
     margin-bottom: 35px;
 }
 
@@ -571,6 +583,10 @@ footer p{
         font-size: 8px;
     }
 
+    .Linea img{
+        margin-top: 5px;
+    }
+
     .principal h2 {
         font-size: 21px;
         margin-top: 4%;
@@ -582,7 +598,7 @@ footer p{
     }
 
     .principal button {
-        font-size: 7px;
+        font-size: 10px;
     }
 
     .principal button {
@@ -596,15 +612,15 @@ footer p{
     }
 
     .feautre h3{
-        font-size: 11px;
+        font-size: 12px;
     }
 
     .second-section p {
-        font-size: 9px;
+        font-size: 10px;
     }
 
     .second-section img{
-        width: 15%;
+        width: 20%;
     }
 
     .section-img{
@@ -654,17 +670,22 @@ footer p{
     }
 
     .section-are button {
-        padding: 8px 20px;
-        margin-top: 12px;
-        font-size: 7px;
+        padding: 8px 26px;
+        margin-top: 10px;
+        font-size: 9px;
+    }
+
+    .cajas h3 {
+        font-size: 8px;
+        margin-bottom: 5px;
     }
 
     .cajas h3 {
         font-size: 8px;
     }
 
-    .cajas h3 {
-        font-size: 8px;
+    .cajas img{
+        height: 5vh;
     }
 
     .section-location {
