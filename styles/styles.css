@@ -21,7 +21,7 @@
 }
 
 .p{
-     margin-bottom: 3%;
+    margin-bottom: 3%;
 }
 
 .principal button{
@@ -77,8 +77,8 @@ body{
     grid-template-areas: auto;
     grid-template-areas: "lapiz pantalla bombillo"
                          "clean maletin dowloand";
-    padding: 5% 20%;
-    gap: 10%;
+    padding: 5% 12%;
+    gap: 4%;
 }
 
 .lapiz{
@@ -109,7 +109,7 @@ body{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-areas: "uno dos tres cuatro"
-                         "sinco seis siete ocho";
+                        "sinco seis siete ocho";
     gap: 2px;
     position: relative;
 }
@@ -214,8 +214,8 @@ body{
 .section-team{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    padding: 5% 20%;
-    gap: 30px;
+    padding: 5% 7%;
+    gap: 20px;
 }
 
 .section-team p{
@@ -323,6 +323,11 @@ body{
     color: white;
 }
 
+.img img{
+    width: 50vw;
+    height: 100%;
+}
+
 /* section-location */
 
 .section-location{
@@ -333,4 +338,416 @@ body{
 
 .cajas{
     text-align: center;
+}
+
+.cajas h3{
+    font-size: 13px;
+}
+
+.cajas p{
+    font-size: 14px;
+    margin-top: 10px;
+    color: rgb(122, 126, 155);
+}
+
+.cajas img{
+    margin-top: 10px;
+    border: 2px solid white;
+    padding: 10px;
+    height: 6vh;
+}
+
+/* footer */
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    padding: 2% 0;
+    background-color: rgb(49, 52, 85);
+}
+
+footer span{
+    color: white;
+}
+
+footer p{
+    color: rgb(122, 126, 155);
+    font-size: 12px;
+}
+
+.p3{
+    font-size: 14px;
+}
+
+/* responsive */
+@media (max-width:1279px){
+
+    .Linea img{
+        height: 100%;
+        width: 20%;
+    }
+
+    .Linea{
+        padding: 2% 10%;
+    }
+
+    header a{
+        margin-left: 15px;
+        font-size: 11px;
+    }
+
+    .principal h2 {
+        font-size: 40px;
+        margin-top: 4%;
+        margin-bottom: 15px;
+    }
+
+    .principal p {
+        font-size: 17px;
+    }
+
+    .principal button{
+        padding: 10px 30px;
+        margin-bottom: 8%;
+    }
+
+    .second-section{
+        padding: 5% 10%;
+        gap: 3%;
+    }
+
+    .second-section p{
+        font-size: 12px;
+    }
+
+    .feautre h3 {
+        font-size: 16px;
+        margin: 10px 0;
+    }
+
+    .feautre p {
+        margin-bottom: 20px;
+    }
+
+    .imagenes{
+        width: 100%;
+    }
+
+    .section-team p {
+        margin-right: auto;
+        margin-bottom: 15px;
+        font-size: 13px;
+    }
+
+    .logos{
+        height: 33px;
+    }
+
+    .p2{
+        font-size: 22px;
+    }
+
+    .inter p {
+        margin-bottom: 26px;
+    }
+
+    .section-are h6 {
+        font-size: 20px;
+        margin-bottom: 12px;
+    }
+
+    .section-are p{
+        font-size: 12px;
+    }
+
+    .section-are button{
+        padding: 10px 40px;
+        margin-top: 18px;
+    }
+
+    .section-location{
+        padding: 5% 10%;
+    }
+
+    .cajas h3 {
+        font-size: 10px;
+    }   
+
+    .cajas p{
+        font-size: 11px;
+        margin-top: 5px;
+    }
+
+    .p3 {
+        font-size: 12px;
+    }
+
+    footer p{
+        font-size: 10px;
+    }
+}
+
+@media (max-width:920px){
+
+    .feautre h3{
+        font-size: 13px;
+        margin: 8px 0;
+    }
+
+    .principal button{
+        font-size: 10px;
+    }
+
+    .second-section p {
+        font-size: 10px;
+    }
+
+    .section-team h4 {
+        font-size: 20px;
+        margin: 15px 0 5px 0;
+    }
+
+    .section-team h5{
+        font-size: 11px;
+    }
+
+    .section-team p{
+        font-size: 12px;
+    }
+
+    .logos {
+        height: 30px;
+    }
+
+    .p2{
+        font-size: 20px;
+    }
+
+    .p4{
+        font-size: 12px;
+    }
+
+    .section-are h6 {
+        font-size: 16px;
+        margin-bottom: 8px;
+    }
+
+    .section-are button {
+        padding: 10px 30px;
+        margin-top: 15px;
+        font-size: 10px;
+    }
+
+    .cajas p {
+        font-size: 10px;
+        margin-top: 2px;
+    }
+
+    .cajas p {
+        font-size: 10px;
+        margin-top: 2px;
+    }
+
+    .cajas img{
+        margin-top: 8px;
+    }
+
+    .p3 {
+        font-size: 11px;
+    }
+
+    footer p {
+        font-size: 9px;
+    }
+}
+
+@media (max-width:768px){
+
+    header a {
+        margin-left: 4px;
+        font-size: 8px;
+    }
+
+    .principal h2 {
+        font-size: 21px;
+        margin-top: 4%;
+        margin-bottom: 13px;
+    }
+
+    .principal p {
+        font-size: 9px;
+    }
+
+    .principal button {
+        font-size: 7px;
+    }
+
+    .principal button {
+        padding: 10px 30px;
+        margin-bottom: 8%;
+    }
+
+    .second-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .feautre h3{
+        font-size: 11px;
+    }
+
+    .second-section p {
+        font-size: 9px;
+    }
+
+    .second-section img{
+        width: 15%;
+    }
+
+    .section-img{
+        display: flex;
+        flex-direction: column;
+        padding: 2% 10%;
+    }
+
+    .section-team{
+        grid-template-columns: 1fr;
+        padding: 2% 10%;
+    }
+
+    .section-team h4 {
+        font-size: 22px;
+        margin: 5px 0 5px 0;
+    }
+
+    .section-team p{
+        margin-bottom: 10px;
+    }
+
+    .logos {
+        height: 36px;
+        margin-bottom: 15px;
+    }
+
+    .section-bloques{
+        flex-direction: column;
+    }
+
+    .img img{
+        width: 100%;
+    }
+
+    .inter{
+        padding: 30px;
+    }
+
+    .section-are h6 {
+        font-size: 12px;
+        margin-bottom: 6px;
+    }
+
+    .section-are p {
+        font-size: 8px;
+    }
+
+    .section-are button {
+        padding: 8px 20px;
+        margin-top: 12px;
+        font-size: 7px;
+    }
+
+    .cajas h3 {
+        font-size: 8px;
+    }
+
+    .cajas h3 {
+        font-size: 8px;
+    }
+
+    .section-location {
+        padding: 5% 3%;
+    }
+
+    .p3{
+        font-size: 10px;
+    }
+
+    footer p {
+        font-size: 8px;
+    }
+}
+
+@media (max-width:480px){
+    header a {
+        margin-left: 4px;
+        font-size: 6px;
+    }
+
+    .principal h2 {
+        font-size: 18px;
+        margin-top: 3%;
+        margin-bottom: 10px;
+    }
+
+    .principal p {
+        font-size: 7px;
+    }
+
+    .principal button {
+        padding: 5px 15px;
+        margin-bottom: 6%;
+    }
+
+    .second-section img {
+        width: 10%;
+    }
+
+    .feautre h3 {
+        font-size: 9px;
+    }
+
+    .second-section p {
+        font-size: 8px;
+    }
+
+    .section-are button {
+        padding: 5px 15px;
+        margin-top: 10px;
+        font-size: 6px;
+    }
+
+    .section-are h6 {
+        font-size: 10px;
+        margin-bottom: 6px;
+    }
+
+    .fot{
+        width: 8px;
+        height: 8px;
+    }
+
+    .cajas h3 {
+        font-size: 7px;
+    }
+
+    .cajas p {
+        font-size: 7px;
+        margin-top: 3px;
+    }
+
+    .cajas img {
+        margin-top: 6px;
+        height: 5vh;
+    }
+
+    .p3 {
+        font-size: 8px;
+    }
+
+    footer p {
+        font-size: 6px;
+    }
 }
