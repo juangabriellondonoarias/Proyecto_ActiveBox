@@ -686,6 +686,7 @@ footer p{
 
     .cajas img{
         height: 5vh;
+        margin-left: 5px;
     }
 
     .section-location {
@@ -762,6 +763,7 @@ footer p{
     .cajas img {
         margin-top: 6px;
         height: 5vh;
+        margin-left: 2px;
     }
 
     .p3 {
