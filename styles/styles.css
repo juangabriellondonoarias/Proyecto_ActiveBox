@@ -40,11 +40,22 @@ p{
     margin-bottom: 10%;
     cursor: pointer;
 }
+
 .Linea{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr 1fr;
     background-color: rgba(50, 52, 85, 0.95);
-    justify-content: space-between;
     padding: 2% 18%;
+}
+
+.linea nav{
+    margin-left: 21%;
+}
+
+.lin{
+    grid-column: 1 / 3;
+    border-bottom: 1px solid #898888;
 }
 
 header a{
@@ -366,7 +377,7 @@ body{
     margin-top: 10px;
     border: 2px solid white;
     padding: 10px;
-    height: 6vh;
+    height: 4vh;
 }
 
 /* footer */
@@ -398,17 +409,20 @@ footer p{
 @media (max-width:1279px){
 
     .Linea img{
-        height: 100%;
-        width: 20%;
+        width: 40%;
     }
 
     .Linea{
         padding: 2% 10%;
     }
 
-    header a{
-        margin-left: 15px;
-        font-size: 11px;
+    header nav{
+        margin-left: 13px;
+    }
+
+    header a {
+        margin-left: 10px;
+        font-size: 9px;
     }
 
     .principal h2 {
@@ -504,6 +518,10 @@ footer p{
 
 @media (max-width:920px){
 
+    header a{
+        margin-left: 7px;
+    }
+
     .feautre h3{
         font-size: 13px;
         margin: 8px 0;
@@ -579,8 +597,12 @@ footer p{
 @media (max-width:768px){
 
     header a {
-        margin-left: 4px;
-        font-size: 8px;
+        margin-left: 1px;
+        font-size: 6px;
+    }
+
+    header nav{
+        margin-left: auto;
     }
 
     .Linea img{
@@ -685,8 +707,7 @@ footer p{
     }
 
     .cajas img{
-        height: 5vh;
-        margin-left: 5px;
+        height: 4vh;
     }
 
     .section-location {
@@ -703,9 +724,14 @@ footer p{
 }
 
 @media (max-width:480px){
+
     header a {
-        margin-left: 4px;
-        font-size: 6px;
+        margin-left: 2px;
+        font-size: 4px;
+    }
+
+    header nav{
+        margin-left: auto;
     }
 
     .principal h2 {
@@ -746,6 +772,10 @@ footer p{
         margin-bottom: 6px;
     }
 
+    .logos{
+        zoom: 0.6;
+    }
+
     .fot{
         width: 8px;
         height: 8px;
@@ -762,8 +792,7 @@ footer p{
 
     .cajas img {
         margin-top: 6px;
-        height: 5vh;
-        margin-left: 2px;
+        zoom: 0.6;
     }
 
     .p3 {
